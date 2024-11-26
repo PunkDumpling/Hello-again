@@ -1,25 +1,28 @@
 body {
-    background-color: #f0f0f0;
-    text-align: center; /* Center the content horizontally */
+background-color: #f0f0f0;
 }
 .center-gif {
-    display: block;
-    margin: 20px auto; /* Center the GIF horizontally */
-    max-width: 20%;
-    height: auto;
+position: absolute; 
+top: 50%; 
+left: 50%; 
+transform: translate(-50%, -50%);
+max-width: 20%;
+height: auto;
 }
 .image-container {
-    display: inline-block;
-    text-align: center;
-    margin-top: 20px; /* Add some space between GIF and buttons */
+position: absolute; 
+top: 50%; 
+left: 50%; 
+transform: translate(-50%, 120%);
 }
 .image-container img {
-    width: 100px;
-    height: auto;
-    margin: 0 5px; /* Add space between buttons */
+width: 100px;
+height: auto;
+margin: 5px; 
 }
 #audioPlayer {
-    display: block;
-    margin: 20px auto; /* Center the audio player horizontally */
+position: absolute; 
+top: 50%; 
+left: 50%; 
+transform: translate(-50%, 500%);
 }
-		
