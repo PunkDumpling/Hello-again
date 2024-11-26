@@ -1,0 +1,29 @@
+body {
+            background-color: #f0f0f0;
+        }
+          .center-gif {
+            position: absolute; 
+			top: 50%; 
+			left: 50%; 
+			transform: translate(-50%, -50%);
+            max-width: 20%;
+            height: auto;
+        }
+        .image-container {
+			position: absolute; 
+			top: 50%; 
+			left: 50%; 
+			transform: translate(-50%, 120%);
+        }
+        .image-container img {
+            width: 100px;
+            height: auto;
+            margin: 5px; 
+        }
+        #audioPlayer {
+            position: absolute; 
+			top: 50%; 
+			left: 50%; 
+			transform: translate(-50%, 500%);
+        }
+		

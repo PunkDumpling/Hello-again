@@ -1,0 +1,19 @@
+
+<html>
+<head>
+    <title>Hello world</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <img id="centerGif" class="center-gif" src="tv/tv0.gif" alt="Center GIF">
+    <div class="image-container">
+        <img src="tv/button1.png" alt="Button 1" onclick="changeMedia('tv/tv1.gif', 'tv/audio1.mp3')">
+        <img src="tv/button2.png" alt="Button 2" onclick="changeMedia('tv/tv2.gif', 'tv/audio2.mp3')">
+        <img src="tv/button3.png" alt="Button 3" onclick="changeMedia('tv/tv3.gif', 'tv/audio3.mp3')">
+    </div>
+    <audio id="audioPlayer" controls>
+        <source src="tv/audio0.mp3" type="audio/mp3">
+    </audio>
+    <script src="script.js"></script> 
+</body>
+</html>
